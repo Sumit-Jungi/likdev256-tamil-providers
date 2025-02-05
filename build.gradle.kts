@@ -10,10 +10,10 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.android.tools.build:gradle:7.0.4")
+        classpath("com.android.tools.build:gradle:8.1.0")
         // Cloudstream gradle plugin which makes everything work and builds plugins
         classpath("com.github.recloudstream:gradle:-SNAPSHOT")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.21")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.0")
     }
 }
 
@@ -41,6 +41,7 @@ subprojects {
     }
 
     android {
+        namespace = "com.likdev256"
         defaultConfig {
             minSdk = 21
             compileSdkVersion(33)
