@@ -1,0 +1,6 @@
+{
+  "name": "(Lik Dev 256 Updated By JCorp) English providers repository",
+  "description": "Cloudstream English Plugin Repository. No longer maintained.",
+  "manifestVersion": 1,
+  "pluginLists": ["https://raw.githubusercontent.com/Sumit-Jungi/likdev256-tamil-providers/builds/plugins.json"]
+}
